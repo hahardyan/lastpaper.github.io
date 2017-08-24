@@ -2,9 +2,7 @@
 	box-sizing: border-box;
 	color: rgb(51,51,51);
 	display: block;
-	float: left;
-	
-
+	float: left;	
 }
 
 .pageheader-lastpaper {
@@ -15,7 +13,12 @@
 	font-weight: 400;
  }
 
-
+.body {
+    font-family: 'Sintony', sans-serif;
+	padding-top: 60px;
+    /*height: 100%;*/
+}
+ 
 .pageheader-lastpaper-2{
      font-family: 'Sintony', sans-serif;
      color: #fff;}
@@ -199,6 +202,22 @@ quote {
     text-align: center;
     margin-bottom: 30px;
 }
+
+
+.map-container {
+	width: 100%;
+	margin: 1px 0 30px;
+}
+.map-container iframe{
+	width: 100%;
+	display: block;
+	pointer-events: none;
+	position: relative; /* IE needs a position other than static */
+}
+.map-container iframe.clicked{
+	pointer-events: auto;
+}
+
 
 /*-------------------------------*/
 /*    Carousel Fade Transition   */
