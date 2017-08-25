@@ -14,20 +14,8 @@
  }
 
 .body {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    font-family: 'Sintony', sans-serif !important;
-=======
     font-family: 'Sintony', sans-serif;
->>>>>>> 5799defadd1d2a65ac4fcf9ff84c312e936c5179
-=======
-    font-family: 'Sintony', sans-serif;
->>>>>>> 5799defadd1d2a65ac4fcf9ff84c312e936c5179
-=======
-    font-family: 'Sintony', sans-serif;
->>>>>>> fd2545ce8a96b430a2fb0ccc4a6c498558b0c370
-	padding-top: 60px;
+    padding-top: 60px;
     /*height: 100%;*/
 }
  
