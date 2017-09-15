@@ -5,6 +5,21 @@
 	float: left;	
 }
 
+.navbar-collapse {
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+  border-top: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+}
+
+.navbar-right {
+    float: right !important;
+	margin-right: -15px;
+}
+
 .pageheader-lastpaper {
     text-align: center;
     font-weight: 500;
@@ -13,9 +28,9 @@
 	font-weight: 400;
  }
 
-.body {
+body {
     font-family: 'Sintony', sans-serif;
-    padding-top: 60px;
+	padding-top: 60px;
     /*height: 100%;*/
 }
  
@@ -26,7 +41,6 @@
 
 
 .sub-title {
-	font-family: 'Sintony', sans-serif;
 	font-weight: 700;
 	margin-top: 0px;
 	font-size: 20px;
@@ -42,33 +56,16 @@
 	min-height: 460px;
 }	
 
-.section-box-one{
-        height: 250px;
-        background: radial-gradient(#6e6e6e,#2f2f2f);
-        background: -webkit-radial-gradient(#6e6e6e,#2f2f2f);
-        background: -moz-radial-gradient(#6e6e6e,#2f2f2f);
-        color: #fff;
-        position: relative;
-        overflow:hidden;
-    }
-
-section.xxx{
+section.kindofart{
 	background: -moz-linear-gradient(left, #ff4b4b 0%, #2098d8 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(left, #ff4b4b 0%,#2098d8 100%); /* Chrome10-25,Safari5.1-6 */
 	font-family: 'Sintony', sans-serif;
 	color:#fff;
 }
 
-.aaa {
-	margin-top: 25px;
-	margin-bottom: 25px;
-	color: #fff;
-}
-
-}
 
 .col-lg{
-	padding-top: 25px
+	padding-top: 25px;
 	padding-bottom: 25px;
 	margin-top: 25px;
 	margin-bottom: 25px;
@@ -82,6 +79,9 @@ section.xxx{
 	padding-bottom: 25px;
 }
 
+.order-section{
+	margin-bottom: 30px;
+}
 
 
 .h1 {
@@ -97,7 +97,7 @@ section.xxx{
 
 
 .isi {
-	font-family: 'Sintony', sans-serif;
+	
 	line-height: 17.5px;
 	
 }
@@ -106,7 +106,7 @@ section.xxx{
 	font-size: 24px;
 	font-weight: 500;
 	text-align: center;
-	font-family: 'Sintony', sans-serif;
+	
 }
 
 .col-md-4, .col-sm-6{
@@ -323,7 +323,7 @@ quote {
     margin-right: 10px;
 }
 
-.section-box-twelve{
+.section-box-testimoni{
     height: 360px;
     background: radial-gradient(#6e6e6e,#2f2f2f);
     background: -webkit-radial-gradient(#6e6e6e,#2f2f2f);
@@ -333,7 +333,7 @@ quote {
     overflow:hidden;
 	}
 	
-.section-box-twelve figure {
+.section-box-testimoni figure {
     position: absolute;
     text-align: center;
     padding: 10px 19px 19px 19px;
@@ -344,7 +344,7 @@ quote {
     transform: scale(2);
 }
 
-.section-box-twelve:hover figure {
+.section-box-testimoni:hover figure {
     opacity: 1;
     transform: scale(1);
     background: rgba(0, 0, 0, 0.71);
@@ -361,9 +361,31 @@ quote {
     height: 100%;
  }
 
+ .lastpaper-footer {
+	 margin: 0;
+ }
 
+.btn-order {
+	color: #fff;
+    background-color: #2F80ED;
+    border-color: #2F80ED;
+	margin-left: 0%;
+}
 
-
+.parallax-one {
+	padding-top: 200px; 
+	padding-bottom: 200px; 
+	overflow: hidden; 
+	position: relative; 
+	width: 100%; 
+	background-image: url('../img/welcome-lastpaper.jpg');
+	background-attachment: fixed; 
+	background-size: cover; 
+	-moz-background-size: cover; 
+	-webkit-background-size: cover; 
+	background-repeat: no-repeat; 
+	background-position: top center;
+}
 
 
 
