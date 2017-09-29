@@ -1,23 +1,48 @@
-.navbar-header {
-	box-sizing: border-box;
-	color: rgb(51,51,51);
-	display: block;
-	float: left;	
+
+.navbar-brand-lastpaper {
+	font-family: 'Racing Sans One', cursive;
+    float: left;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
 }
 
-.navbar-collapse {
-  padding-right: 15px;
-  padding-left: 15px;
-  overflow-x: visible;
-  -webkit-overflow-scrolling: touch;
-  border-top: 1px solid transparent;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
-          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #9d9d9d;
+    padding: 17px;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-footer {
+    position: relative;
+    min-height: 50px;
+    /* margin-bottom: 20px; */
+    border: 1px solid transparent;
+}
+
+
+
+.ml-auto {
+    margin-left: auto!important;
 }
 
 .navbar-right {
     float: right !important;
-	margin-right: -15px;
+	
 }
 
 .pageheader-lastpaper {
@@ -30,9 +55,10 @@
 
 body {
     font-family: 'Sintony', sans-serif;
-	padding-top: 60px;
+	
     /*height: 100%;*/
 }
+
  
 .pageheader-lastpaper-2{
      font-family: 'Sintony', sans-serif;
@@ -84,9 +110,11 @@ section.kindofart{
 }
 
 
-.h1 {
-	font-size: 30px;
-	line-height: 1.1;
+
+
+ h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .text-footer {
@@ -97,10 +125,11 @@ section.kindofart{
 
 
 .isi {
-	
 	line-height: 17.5px;
+	text-align: left;
 	
 }
+
 
 .img-title {
 	font-size: 24px;
@@ -130,35 +159,7 @@ section.kindofart{
 }
 
 
-.navbar {
-min-height: 50px;
-margin-bottom: 0px;
-border-radius: 0px;
-}
 
-.navbar-brand-lastpaper {
-	font-family: 'Racing Sans One', cursive;
-    float: left;
-    font-size: 24px;
-    color: #fff;
-    text-decoration: none;
-    padding: 15px;
-}
-
-.navbar-inverse {
-	color: rgb(51,51,51);
-	border-color: #222;
-	border-radius: none;
-}
-
-.navbar-fixed-top {
-	top: 0;
-	border-width: 0 0 1px;
-	position: fixed;
-	right: 0;
-	left: 0;
-	z-index: 1030;
-}
 
 .btn-default {
     color: #fff;
@@ -168,11 +169,10 @@ border-radius: 0px;
 
 .btn {
     
-    display: inline-block;
-	margin-left: 30%;
-	padding: 10px 20px;
-	padding: 10px 20px;
-    margin-bottom: 0;
+    display: block;
+	margin: auto;
+	width: 40%;
+	
     font-size: 16px;
     font-weight: 400;
     line-height: 1.42857143;
@@ -295,8 +295,8 @@ quote {
     margin-right: -19px;
 }
 #quote-carousel .carousel-indicators li {
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
     cursor: pointer;
     border: 1px solid #ccc;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -324,7 +324,7 @@ quote {
 }
 
 .section-box-testimoni{
-    height: 360px;
+    height: 100%;
     background: radial-gradient(#6e6e6e,#2f2f2f);
     background: -webkit-radial-gradient(#6e6e6e,#2f2f2f);
     background: -moz-radial-gradient(#6e6e6e,#2f2f2f);
@@ -354,7 +354,7 @@ quote {
     color: #fff;
     font-size: 3em;
     top: 35%;
-    position: relative;
+    position: center;
 }
 
 .section-box-twelve img{
@@ -385,13 +385,33 @@ quote {
 	-webkit-background-size: cover; 
 	background-repeat: no-repeat; 
 	background-position: top center;
+	}
+
+.aspect-ratio-box {
+  height: 0;
+  
+  padding-top: 591.44px / 1127.34px * 100%;
+  background: red;
+  position: relative;
+  color: red;
+}
+.aspect-ratio-box-inside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-
-
-
-
-
+.flexbox-centering {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.viewport-sizing {
+  font-size: 5vw;
+}
 
 
 
