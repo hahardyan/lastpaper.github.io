@@ -8,6 +8,7 @@
 		<title>LASTPAPER</title>	
 		
 		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+		
 		<!-- bootstrap.min.js -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
@@ -17,6 +18,8 @@
 		<link href="css/lastpaper.css" rel="stylesheet">
 		
 		<link rel="shortcut icon" href="img/lp-icon.ico">
+		<script src="js/lazyload.js"></script>
+		<link href="css/lazyloadss.css" rel="stylesheet">
 	</head>
 	
 	<body>
@@ -56,7 +59,9 @@
 				</div>
 
 				<div class="col-md-4">
-					<img class="img-responsive" src="img/photobook.jpg" alt="">
+					<a class="card-image" style="background-image: url(img/photobook-min.jpg);" data-image-full="img/photobook.jpg"> 
+						<img class="img-responsive" src="img/photobook-min.jpg" alt="">
+					</a>
 					<h3 class="img-title">Photo Book</h3>
 					<div class="row">
 					<a href="order.html" class="btn btn-primary">CREATE NOW!</a>
@@ -64,7 +69,9 @@
 				</div>
 
 				<div class="col-md-4">
-					<img class="img-responsive" src="img/photoprint.jpg" alt="">
+					<a class="card-image" style="background-image: url(img/photoprint-min.jpg);" data-image-full="img/photoprint.jpg"> 
+						<img class="img-responsive" src="img/photoprint.jpg" alt="">
+					</a>
 					<h3 class="img-title">Photo Print</h3>
 					<div class="row">
 					<a href="order.html" class="btn btn-primary">CREATE NOW!</a>
@@ -72,7 +79,9 @@
 				</div>
 
 				<div class="col-md-4">
-					<img class="img-responsive" src="img/canvasart.jpg" alt="">
+					<a class="card-image" style="background-image: url(img/canvasart-min.jpg);" data-image-full="img/canvasart.jpg"> 
+						<img class="img-responsive" src="img/canvasart.jpg" alt="">
+					</a>
 					<h3 class="img-title">Canvas Art</h3>
 					<div class="row">
 					<a href="order.html" class="btn btn-primary">CREATE NOW!</a>
@@ -97,7 +106,9 @@
 								Cocok untuk hadiah wisuda, pernikahan ataupun hiasan di rumah Anda.</p>
 								
 							</figure>
-							<img class="img-responsive" src="img/Illustration.jpg" alt="">
+							<a class="card-image" style="background-image: url(img/illustration-min.jpg);" data-image-full="img/illustration.jpg"> 
+								<img class="img-responsive" src="img/illustration-min.jpg" alt="">
+							</a>
 						</div>
 						<h3>Illustration</h3>
 					</div>
@@ -107,7 +118,9 @@
 								<p>Jenis sketsa yang mulai populer di tahun 2016, ciri khas dari sketsa Scribble adalah coretan-coretan 
 								yang terkesan "asal" namun membentuk bentuk tertentu. Cocok bagi anda yang ingin memneri hadiah yang anti-mainstream</p>
 							</figure>
-							<img class="img-responsive" src="img/scribble.jpg" alt="">
+							<a class="card-image" style="background-image: url(img/scribble-min.jpg);" data-image-full="img/scribble.jpg"> 
+								<img class="img-responsive" src="img/scribble-min.jpg" alt="">
+							</a>
 						</div>
 						<h3>Scrible</h3>
 					</div>
@@ -118,7 +131,9 @@
 								<p>Teknik melukis ini ditemukan oleh Wedha Abdul Rasyid, seniman grafis asal Pekalongan, Jawa Tengah, pada tahun 1990.
 								WPAP suatu gugus seni ilustrasi potret wajah yang bersaling-silang secara geometri dengan penggunaan kontradiksi warna-warna khusus</p>
 							</figure>
-							<img class="img-responsive" src="img/wpap.jpg" alt="">
+							<a class="card-image" style="background-image: url(img/wpap-min.jpg);" data-image-full="img/wpap.jpg"> 
+								<img class="img-responsive" src="img/wpap-min.jpg" alt="">
+							</a>
 						</div>
 						<h3>WPAP Art</h3>
 					</div>
@@ -219,6 +234,7 @@
 					</div>
 				</div>
 			</div>
+			
 		
 		<footer class="lastpaper-footer">	
 			<div class="navbar-footer navbar-inverse" align="center">
